@@ -1,0 +1,48 @@
+!! cursor theme
+Xcursor.theme: DMZ
+!Xcursor.size: 16
+
+!! color theme
+URxvt*font: xft:inconsolata:pixelsize=13
+URxvt*scrollBar: false
+
+! Molokai theme
+!URxvt*background: #101010
+!URxvt*foreground: #d0d0d0
+
+!URxvt*color0: #101010
+!URxvt*color1: #960050
+!URxvt*color2: #66aa11
+!URxvt*color3: #c47f2c
+!URxvt*color4: #30309b
+!URxvt*color5: #7e40a5
+!URxvt*color6: #3579a8
+!URxvt*color7: #9999aa
+!URxvt*color8: #303030
+!URxvt*color9: #ff0090
+!URxvt*color10: #80ff00
+!URxvt*color11: #ffba68
+!URxvt*color12: #5f5fee
+!URxvt*color13: #bb88dd
+!URxvt*color14: #4eb4fa
+!URxvt*color15: #d0d0d0
+
+urxvt*background: #101010
+urxvt*foreground: #d0d0d0
+
+urxvt*color0:  #2E3436
+urxvt*color1:  #a40000
+urxvt*color2:  #4E9A06
+urxvt*color3:  #C4A000
+urxvt*color4:  #3465A4
+urxvt*color5:  #75507B
+urxvt*color6:  #ce5c00
+urxvt*color7:  #babdb9
+urxvt*color8:  #555753
+urxvt*color9:  #EF2929
+urxvt*color10: #8AE234
+urxvt*color11: #FCE94F
+urxvt*color12: #729FCF
+urxvt*color13: #AD7FA8
+urxvt*color14: #fcaf3e
+urxvt*color15: #EEEEEC
