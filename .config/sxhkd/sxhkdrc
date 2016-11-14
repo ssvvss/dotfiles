@@ -1,0 +1,68 @@
+# programs shortcuts
+super + Return
+	urxvtc
+
+super + d
+	dmenu_run
+
+super + l
+	screenlock
+
+#super + p
+#    scrot -s  $HOME/Pictures/Screenshots/%Y-%m-%d-%H%M%S.png
+
+# window management shortcuts
+super + shift + q
+	bspc node -c
+
+super + shift + k
+	bspc node -k
+
+super + {t, f, s}
+	bspc node -t ~{tiled,fullscreen,floating}
+
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f, node -d} {I, II, III, IV, V, VI, VII, VIII, IX, X}
+
+super + b
+	bspc desktop -B
+
+super + {_,shift,alt} + {Left,Down,Up,Right}
+	bspc node {-f,-s,-p} {west,south,north,east}
+
+# move a floating window
+#super + {Left,Down,Up,Right}
+#	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+super + {_, shift} + Tab
+	bspc node -f {next, prev}
+
+# mouse click focus
+#~button1
+#    bspc pointer -g focus
+
+# mouse move/resize side/resize corner
+super + button{1-3}
+    bspc pointer -g {move,resize_side,resize_corner}
+
+super + !button{1-3}
+	bspc pointer -t %i %i
+
+super + @button{1-3}
+	bspc pointer -u
+
+
+#system management shortcuts
+super + shift + BackSpace
+	bspc quit
+
+#media keys
+super + equal
+	amixer -q set Master 4dB+ unmute
+
+super + minus
+	amixer -q set Master 4dB- unmute
+
+super + m
+	amixer -q set Master toggle
+
